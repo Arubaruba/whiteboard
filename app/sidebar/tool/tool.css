@@ -1,0 +1,21 @@
+.tool {
+    border-radius: 3px;
+    border: 0.2vw solid;
+    color: #878787;
+    height: 4.5vw;
+    line-height: 4.3vw;
+    margin: 2.15vw auto 0 auto;
+    width: 4.5vw;
+    cursor: pointer;
+    text-align: center;
+}
+
+.tool.selected {
+    background: pink;
+}
+
+.tool .fa {
+    font-size: 2vw;
+    line-height: inherit;
+}
+

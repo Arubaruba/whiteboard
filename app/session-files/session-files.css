@@ -1,0 +1,42 @@
+.session-files {
+    border-left: 1px solid #ccc;
+    height: 100%;
+    padding: 0;
+}
+
+.hide-unhide {
+    border-radius: 3px;
+    color: #878787;
+    font-size: 3em;
+    padding: 0.1em 0.2em;
+    border: 0.2vw solid;
+    cursor: pointer;
+    text-align: center;
+    margin: 1vw;
+}
+
+.folder {
+    cursor: pointer;
+    margin: 1vw 1vw 0.3vw 1vw;
+    padding: 0.2em 0.5em;
+    border-bottom: 1px solid #ccc;
+}
+
+.folder-files {
+    margin-left: 2.8vw;
+}
+
+.file {
+    cursor: pointer;
+    margin: 1vw 1vw 0.3vw 1vw;
+    background: #fff;
+    color: #878787;
+    border-radius: 3px;
+    padding: 0.2em 0.5em;
+}
+
+.file-selected {
+    border-radius: 3px;
+    background: pink;
+    color: #333;
+}

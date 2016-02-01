@@ -1,0 +1,17 @@
+<div class="sidebar medium-1 column">
+    <div>
+        <tool
+                *ngFor="#tool of tools"
+                [tool]="tool"
+                [selected]="selectedTool == tool"
+                (click)="selectToolComponent(tool)"></tool>
+    </div>
+    <hr>
+    <div class="tool-configuration">
+        <svg viewBox="0 0 120 120" version="1.1"
+             xmlns="http://www.w3.org/2000/svg">
+            <circle cx="60" cy="60" r="45" fill="#d4d4d4"/>
+            <circle cx="60" cy="60" r="20"/>
+        </svg>
+    </div>
+</div>
